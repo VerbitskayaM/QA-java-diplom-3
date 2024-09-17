@@ -1,0 +1,14 @@
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/clients/ApiClient.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/clients/ApiUrls.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/clients/WebDriverSettings.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/dto/User.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/dto/UserResponse.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/pageobjects/AuthPage.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/pageobjects/ForgotPasswordPage.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/pageobjects/MainPage.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/pageobjects/ProfilePage.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/pageobjects/RegisterPage.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/tests/AuthTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/tests/MainPageTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/tests/ProfilePageTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-3/src/test/java/tests/RegisterPageTests.java
