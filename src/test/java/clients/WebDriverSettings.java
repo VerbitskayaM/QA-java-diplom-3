@@ -10,24 +10,10 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class WebDriverSettings {
     public static WebDriver getWebDriver(String browserName) {
         ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--headless=new");
-//        chromeOptions.addArguments("--no-sandbox");
-//        chromeOptions.addArguments("--disable-dev-shm-usage");
-//        chromeOptions.addArguments("--disable-gpu");
-//        chromeOptions.addArguments("--disable-software-rasterizer");
-//        chromeOptions.addArguments("--no-first-run");
-//        chromeOptions.addArguments("--remote-allow-origins=*");
         chromeOptions.addArguments("--start-maximized");
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
         FirefoxOptions firefoxOptions = new FirefoxOptions();
-//        firefoxOptions.addArguments("--headless=new");
-//        firefoxOptions.addArguments("--no-sandbox");
-//        firefoxOptions.addArguments("--disable-dev-shm-usage");
-//        firefoxOptions.addArguments("--disable-gpu");
-//        firefoxOptions.addArguments("--disable-software-rasterizer");
-//        firefoxOptions.addArguments("--no-first-run");
-////        firefoxOptions.addArguments("--remote-allow-origins=*");
         firefoxOptions.addArguments("--kiosk");
         firefoxOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
