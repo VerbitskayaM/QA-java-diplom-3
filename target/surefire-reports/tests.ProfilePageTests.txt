@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: tests.ProfilePageTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 67.835 s <<< FAILURE! - in tests.ProfilePageTests
+checkLinkToConstructorIsSuccess[Browser firefox](tests.ProfilePageTests)  Time elapsed: 10.45 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <p class="AppHeader_header__linkText__3q_va ml-2"> is not clickable at point (304,44) because another element <div class="Modal_modal_overlay__x2ZCr"> obscures it
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.6.2', java.version: '22.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ad1a95a1-fc55-4840-afe6-1cc021053cc3, clickElement {id=03f1ede1-2dba-4653-b928-b149b824aa96}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:36633, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 49984, moz:profile: /var/folders/sr/m45y45dd69q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:36633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (ad1a95a1-fc55-4840-afe6-1cc021053cc3)] -> xpath: .//p[starts-with(@class,'AppHeader_header__linkText')]]
+Session ID: ad1a95a1-fc55-4840-afe6-1cc021053cc3
+	at tests.ProfilePageTests.checkLinkToConstructorIsSuccess(ProfilePageTests.java:106)
+

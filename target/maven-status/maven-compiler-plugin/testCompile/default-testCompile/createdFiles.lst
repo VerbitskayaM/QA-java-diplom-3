@@ -1,0 +1,14 @@
+pageobjects/MainPage.class
+pageobjects/RegisterPage.class
+dto/User.class
+tests/MainPageTests.class
+pageobjects/ProfilePage.class
+tests/AuthTests.class
+pageobjects/ForgotPasswordPage.class
+tests/ProfilePageTests.class
+clients/ApiClient.class
+pageobjects/AuthPage.class
+clients/ApiUrls.class
+tests/RegisterPageTests.class
+clients/WebDriverSettings.class
+dto/UserResponse.class
