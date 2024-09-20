@@ -5,7 +5,6 @@ import clients.ApiUrls;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
-import org.hamcrest.MatcherAssert;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

@@ -1,6 +1,5 @@
 package tests;
 
-import clients.ApiClient;
 import clients.ApiUrls;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
